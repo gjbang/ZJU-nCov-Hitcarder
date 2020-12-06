@@ -1,1 +1,1 @@
-python3 imdaka.py
+python3 ./ZJU-nCov-Hitcarder/imdaka.py

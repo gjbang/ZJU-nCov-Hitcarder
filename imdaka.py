@@ -156,8 +156,8 @@ def main(username, password):
 
 
 if __name__=="__main__":
-    if os.path.exists('./config.json'):
-        configs = json.loads(open('./config.json', 'r').read())
+    if os.path.exists('./ZJU-nCov-Hitcarder/config.json'):
+        configs = json.loads(open('./ZJU-nCov-Hitcarder/config.json', 'r').read())
         username = configs["username"]
         password = configs["password"]
         hour = configs["schedule"]["hour"]
